@@ -1,0 +1,38 @@
+.newsletter {
+  display: flex;
+  padding: 0px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  align-self: stretch;
+}
+
+.newsletter-title {
+  font-family: "Rubik Mono One";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.newsletter-inscription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.newsletter-subscrib {
+  text-decoration: none;
+  border: 2px solid var(--white, #fff);
+  padding: 10px 15px;
+}
+
+.newsletter-mail {
+  display: flex;
+  width: 400px;
+  padding: 10px 15px;
+  align-items: center;
+  gap: 10px;
+}

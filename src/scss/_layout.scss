@@ -7,3 +7,9 @@
   gap: 200px;
   align-self: stretch;
 }
+
+.l-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

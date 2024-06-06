@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
-  <body>
+  <body class="l-body">
     <div class="header">
       <nav class="header-nav">
         <a href="" class="font-nav">Nos bières</a>
@@ -32,7 +32,9 @@
       </div>
     </div>
     <h1>
-      <img src="img/logo.svg" alt="logo" class="title-logo" />
+      <div class="title-logo-container">
+        <img src="img/logo.svg" alt="logo" class="title-logo" />
+      </div>
       <div class="title-background">
         <img src="img/brune-mini.png" alt="bière brune" class="title-beer-dark" />
         <img src="img/blonde-mini.png" alt="bière blonde" class="title-beer-blond" />
@@ -52,8 +54,8 @@
       </div>
       <div class="product product-blond">
         <div class="product-down">
-          <div class="element">
-            <div class="text">
+          <div class="product-element">
+            <div class="product-text">
               <h3 class="font-mini-titre">
                 Notre bière blonde sans alcool artisanale est brassée avec des
                 ingrédients de qualité
@@ -64,17 +66,19 @@
                 chaque gorgée.
               </p>
             </div>
-            <img src="img/fleche-gauche.svg" alt="fleche" />
+            <div class="left-arrow-container">
+              <img src="img/fleche-gauche.svg" alt="fleche" class="product-arrow-left"/>
+            </div>
           </div>
         </div>
-        <div class="beer">
-          <h2 class="font-gras font-blond">Blonde</h2>
+        <div class="product-beer">
+          <img src="img/blonde.svg" alt="blonde" class="product-name product-name-left"></img>
           <img src="img/blonde-mini.png" alt="bière blonde" class="beer-blond"/>
-          <h2 class="font-gras font-blond">Blonde</h2>
+          <img src="img/blonde.svg" alt="blonde" class="product-name product-name-right"></img>
         </div>
         <div class="product-up">
-          <div class="element">
-            <div class="text">
+          <div class="product-element">
+            <div class="product-text">
               <h3 class="font-mini-titre">Découvrez notre bière blonde sans alcool artisanale</h3>
               <p class="font-texte">
                 Une fusion de saveurs locales et bio, brassée avec soin.
@@ -82,7 +86,9 @@
                 et sans compromis pour les amateurs de bières de qualité.
               </p>
             </div>
-            <img src="img/fleche-droite.svg" alt="fleche" />
+            <div class="right-arrow-container">
+              <img src="img/fleche-droite.svg" alt="fleche" class="product-arrow-right"/>
+            </div>
           </div>
         </div>
       </div>
@@ -98,8 +104,8 @@
       </div>
       <div class="product product-dark">
         <div class="product-up">
-          <div class="element">
-            <div class="text">
+          <div class="product-element">
+            <div class="product-text">
               <h3 class="font-mini-titre">
                 Succombez à notre bière brune sans alcool artisanale
               </h3>
@@ -109,17 +115,19 @@
                 apprécient une bière de qualité sans compromis sur le plaisir.
               </p>
             </div>
-            <img src="img/fleche-gauche.svg" alt="fleche" />
+            <div class="left-arrow-container">
+              <img src="img/fleche-gauche.svg" alt="fleche" class="product-arrow-left"/>
+            </div>
           </div>
         </div>
-        <div class="beer">
-          <h2 class="font-gras font-dark">Brune</h2>
+        <div class="product-beer">
+          <img src="img/brune.svg" alt="brune" class="product-name product-name-left"></img>
           <img src="img/brune-mini.png" alt="bière brune" class="beer-dark"/>
-          <h2 class="font-gras font-dark">Brune</h2>
+          <img src="img/brune.svg" alt="brune" class="product-name product-name-right"></img>
         </div>
         <div class="up">
-          <div class="element">
-            <div class="text">
+          <div class="product-element">
+            <div class="product-text">
               <h3 class="font-mini-titre">
                 Notre bière brune sans alcool artisanale est concoctée avec soin
               </h3>
@@ -129,7 +137,9 @@
                 riche en saveurs.
               </p>
             </div>
-            <img src="img/fleche-droite.svg" alt="fleche" />
+            <div class="right-arrow-container">
+              <img src="img/fleche-droite.svg" alt="fleche" class="product-arrow-right"/>
+            </div>
           </div>
         </div>
       </div>
@@ -144,8 +154,8 @@
       </div>
       <div class="product product-ipa">
         <div class="product-down">
-          <div class="element">
-            <div class="text">
+          <div class="product-element">
+            <div class="product-text">
               <h3 class="font-mini-titre">Notre bière sans gluten sans alcool artisanale</h3>
               <p class="font-texte">
                 Infusée de houblon aux notes d'agrumes et de coriandre, alliant
@@ -153,17 +163,19 @@
                 profiter d'une expérience rafraîchissante et pleine de saveurs.
               </p>
             </div>
-            <img src="img/fleche-gauche.svg" alt="fleche" />
+            <div class="left-arrow-container">
+              <img src="img/fleche-gauche.svg" alt="fleche" class="product-arrow-left"/>
+            </div>
           </div>
         </div>
-        <div class="beer">
-          <h2 class="font-gras font-ipa">Ipa</h2>
+        <div class="product-beer">
+          <img src="img/ipa.svg" alt="ipa" class="product-name product-name-left"></img>
           <img src="img/ipa-mini.png" alt="bière sans gluten" class="beer-ipa"/>
-          <h2 class="font-gras font-ipa">Ipa</h2>
+          <img src="img/ipa.svg" alt="ipa" class="product-name product-name-right"></img>
         </div>
         <div class="product-up">
-          <div class="element">
-            <div class="text">
+          <div class="product-element">
+            <div class="product-text">
               <h3 class="font-mini-titre">Découvrez notre bière sans gluten sans alcool artisanale</h3>
               <p class="font-texte">
                 Brassée sans compromis sur le goût, elle offre une expérience
@@ -171,27 +183,29 @@
                 alimentaires et aux amateurs de bières exquises.
               </p>
             </div>
-            <img src="img/fleche-droite.svg" alt="fleche" />
+            <div class="right-arrow-container">
+              <img src="img/fleche-droite.svg" alt="fleche" class="product-arrow-right"/>
+            </div>
           </div>
         </div>
       </div>
       <a href="" class="command">Commander</a>
       <div class="newsletter">
-        <h4>
+        <h4 class="newsletter-title">
           <span class="font-blond">“</span>
           Suivez notre développement
           <span class="font-blond">”</span>
         </h4>
-        <div class="inscription">
-          <input type="email" class="mail" placeholder="licorne@mail.com"></input>
-          <a href="" class="subscrib">S'abonner</a>
+        <div class="newsletter-inscription">
+          <input type="email" class="newsletter-mail font-texte" placeholder="licorne@mail.com"></input>
+          <a href="" class="newsletter-subscrib font-texte">S'abonner</a>
         </div>
       </div>
     </div>
-    <div class="footer">
-      <div class="contenu">
-        <div class="adresse">
-          <h3>Adresse de la Brasserie :</h3>
+    <footer class="footer">
+      <div class="footer-contenu">
+        <div class="footer-adresse">
+          <h3 class="font-mini-titre">Adresse de la Brasserie :</h3>
           <p class="font-texte">
             Licorne <br>
             Sylvain Megroni <br>
@@ -199,11 +213,11 @@
             CH-1470 Estavayer-Le-Lac
           </p>
         </div>
-        <div class="legal-mention">
+        <div class="footer-legal-mention">
           <p class="font-texte">Politique de confidentialité</p>
           <p class="font-texte">Conditions générales de vente</p>
         </div>
-        <div class="reseaux">
+        <div class="footer-reseaux">
           <img src="img/tiktok.svg" alt="tiktok">
           <img src="img/instagram.svg" alt="instagram">
         </div>
@@ -211,7 +225,7 @@
       <div class="copyright">
         <p class="font-texte">© 2024 Licorne. Tous droits réservés.</p>
       </div>
-    </div>
+    </footer>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
