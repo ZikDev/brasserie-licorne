@@ -1,0 +1,15 @@
+.description {
+  display: flex;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.description-brasserie,
+.description-sylvain,
+.description-biere {
+  width: 500px;
+  text-align: center;
+}

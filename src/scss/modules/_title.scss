@@ -1,0 +1,32 @@
+.title-background {
+  display: flex;
+  width: 1440px;
+  padding: 50px 250px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-beer-blond {
+  width: 190.547px;
+  height: 600px;
+  flex-shrink: 0;
+}
+
+.title-beer-dark {
+  width: 158.789px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+.title-beer-ipa {
+  width: 160.724px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+.title-logo {
+  position: fixed;
+  width: 817.483px;
+  height: 150px;
+  flex-shrink: 0;
+}
