@@ -28,4 +28,12 @@
   align-items: center;
   gap: 10px;
   border: 2px solid var(--white, #fff);
+  transition: transform 0.2s;
+}
+
+.header-language {
+  color: var(--white);
+  background-color: var(--black);
+  border: none;
+  outline: none;
 }
