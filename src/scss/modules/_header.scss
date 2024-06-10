@@ -6,6 +6,7 @@
   align-items: center;
   background: var(--black, #0f0f0f);
   position: fixed;
+  z-index: 100;
 }
 
 .header-nav {
