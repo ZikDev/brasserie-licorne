@@ -1,43 +1,58 @@
-.font-nav {
-  font-family: Teachers;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  text-decoration: none;
+@media (min-width: 1360px) {
+  .font-nav {
+    font-family: Teachers;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  .font-texte {
+    font-family: Teachers;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .font-mini-titre {
+    font-family: Teachers;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .font-login {
+    font-family: Teachers;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+  }
 }
 
-.font-texte {
-  font-family: Teachers;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
+@media (max-width: 1360px) {
+  .font-nav,
+  .font-texte {
+    font-family: Teachers;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
 
-.font-mini-titre {
-  font-family: Teachers;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.font-gras {
-  font-family: "Rubik Mono One";
-  font-size: 128px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.font-login {
-  font-family: Teachers;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-decoration: none;
+  .font-mini-titre,
+  .font-login {
+    font-family: Teachers;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 }
 
 .font-blond {
