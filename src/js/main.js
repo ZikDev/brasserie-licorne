@@ -10,8 +10,8 @@ gsap.to(".title-logo", {
     scrub: 1,
   },
   top: "35px",
-  width: "163.497px",
-  height: "30px",
+  width: "136.247px",
+  height: "25px",
 });
 
 var burger = document.querySelector(".burger");
