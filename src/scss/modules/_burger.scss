@@ -16,7 +16,7 @@
     z-index: 1;
     width: 30px;
     height: 19px;
-    z-index: 1001;
+    z-index: 11;
   }
 
   .burger-menu {
@@ -30,7 +30,7 @@
     transform: translateX(-100%);
     pointer-events: none;
     transition: transform 0.3s;
-    z-index: 1000;
+    z-index: 10;
   }
 
   .burger-menu.is-active {

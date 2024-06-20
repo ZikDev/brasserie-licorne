@@ -1,4 +1,4 @@
-@media (min-width: 1360px) {
+@media (min-width: 1000px) {
   .title-background {
     display: flex;
     width: 1440px;
@@ -33,11 +33,11 @@
     top: 410px;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1000;
+    z-index: 3;
   }
 }
 
-@media (max-width: 1360px) {
+@media (max-width: 1000px) {
   .title-background {
     display: flex;
     justify-content: space-between;
@@ -72,6 +72,11 @@
     top: 270px;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 100;
+    z-index: 3;
+    transition: z-index 0.2s;
+  }
+
+  .title-logo.is-active {
+    z-index: 0;
   }
 }

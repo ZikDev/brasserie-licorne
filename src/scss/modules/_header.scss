@@ -7,7 +7,7 @@
     align-items: center;
     background: var(--black, #0f0f0f);
     position: fixed;
-    z-index: 100;
+    z-index: 2;
   }
 
   .header-nav {
@@ -52,7 +52,7 @@
     position: fixed;
     left: 0;
     right: 0;
-    z-index: 100;
+    z-index: 2;
   }
 
   .header-nav {

@@ -16,10 +16,12 @@ gsap.to(".title-logo", {
 
 var burger = document.querySelector(".burger");
 var menu = document.querySelector(".burger-menu");
+var title = document.querySelector(".title-logo");
 
 var toggleMenu = function toggleMenu() {
   menu.classList.toggle("is-active");
   burger.classList.toggle("is-active");
+  title.classList.toggle("is-active");
 };
 
 burger.addEventListener("click", toggleMenu);
