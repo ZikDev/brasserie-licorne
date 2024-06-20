@@ -1,39 +1,88 @@
-.newsletter {
-  display: flex;
-  padding: 0px 10px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-  align-self: stretch;
+@media (min-width: 1360px) {
+  .newsletter {
+    display: flex;
+    padding: 0px 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    align-self: stretch;
+  }
+
+  .newsletter-title {
+    font-family: "Rubik Mono One";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .newsletter-inscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .newsletter-subscrib {
+    text-decoration: none;
+    border: 2px solid var(--white, #fff);
+    padding: 10px 15px;
+    transition: transform 0.2s;
+  }
+
+  .newsletter-mail {
+    display: flex;
+    width: 400px;
+    padding: 10px 15px;
+    align-items: center;
+    gap: 10px;
+  }
 }
 
-.newsletter-title {
-  font-family: "Rubik Mono One";
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
+@media (max-width: 1360px) {
+  .newsletter {
+    display: flex;
+    padding: 0px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    align-self: stretch;
+  }
 
-.newsletter-inscription {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-}
+  .newsletter-title {
+    font-family: "Rubik Mono One";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+  }
 
-.newsletter-subscrib {
-  text-decoration: none;
-  border: 2px solid var(--white, #fff);
-  padding: 10px 15px;
-  transition: transform 0.2s;
-}
+  .newsletter-inscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    align-self: stretch;
+  }
 
-.newsletter-mail {
-  display: flex;
-  width: 400px;
-  padding: 10px 15px;
-  align-items: center;
-  gap: 10px;
+  .newsletter-subscrib {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid var(--white, #fff);
+  }
+
+  .newsletter-mail {
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+  }
 }
